@@ -1,5 +1,3 @@
-//Rock, Paper, Scissors, Lizard, Spock
-//By Srujay Korlakunta
 
 import java.util.Scanner;
 
@@ -32,7 +30,7 @@ public class RPSLS
 	public RPSLS(){
 
 		System.out.println("Time to play Rock, Paper, Scissors, Lizard, Spock!");
-		System.out.print("\nHow many games would you like to play? \nEnter an odd integer number between 1 and 9 :: ");
+		System.out.print("\nHow many games would you like to play? \nEnter an odd number between 1 and 9 : ");
 		numGamesWord = keyboard.nextLine();
 
 		numGames = 0;

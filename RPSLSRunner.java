@@ -1,5 +1,4 @@
-//Rock, Paper, Scissors, Lizard, Spock
-//By Srujay Korlakunta
+
 
 import java.util.Scanner;
 
@@ -9,7 +8,7 @@ public class RPSLSRunner{
 		Scanner keyboardTwo = new Scanner(System.in);
 
 		String name;
-		System.out.print("Hiya! Enter your name :: ");
+		System.out.print("Hiya! Enter your name : ");
 		name = keyboardTwo.nextLine();
 
 		RPSLS game = new RPSLS();
