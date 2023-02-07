@@ -9,7 +9,6 @@ public class RPSLS
 		String numGamesWord;
 		String compChoiceUpper;
 		int numGames;
-		int numGamesTwo;
 		int playedGames;
 		int toWin;
 		int userWins = 0;
@@ -18,7 +17,6 @@ public class RPSLS
 		boolean numGamesOkay;
 		boolean choiceOkay;
 		boolean numOkay;
-		boolean choiceNum;
 
 		Scanner keyboard = new Scanner(System.in);
 
@@ -36,7 +34,7 @@ public class RPSLS
 		numGames = 0;
 		numGamesOkay = isNumeric(numGamesWord);
 
-		if(numGamesOkay == false){
+		if(!numGamesOkay){
 
 			numOkay = true;
 		}else{
